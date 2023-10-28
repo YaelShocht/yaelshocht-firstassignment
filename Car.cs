@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-//CR - remove all unused packages
+
+
 //CR - where is your Program.cs file? this is the main .cs file from where we can run our program.
 
-namespace ConsoleApp2 //CR - naming - give the project a relevant name
+namespace ExeFirstCsharp
 {
     internal class Car
-    {  public string Model { get; set; } //CR - why public? We need to be careful in maintaining the privacy of variables
-        public int Speed { get;  set; }
+    {
+        private string Model { get; set; } 
+        private int Speed { get;  set; }
       
         public Car(string model)
         {
