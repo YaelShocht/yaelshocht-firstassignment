@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace ConsoleApp2
+namespace ExeFirstCsharp
 {
     internal class Task
     {
@@ -36,11 +36,10 @@ namespace ConsoleApp2
                 Console.WriteLine("הקש מספר");
                 
                 x = int.TryParse(Console.ReadLine(), out int id);  
-                //How do I check it?
-            }
+                }
             return max;
         }
-        //exe3
+        
         static void PrintFibonacci(int n)
         {
             int first = 0, second = 1, next;
